@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!--
+  SPACE = GAME TRIVIA - GENESIS
+  CREATED BY - TL
+-->
+
+    <title>g1a. Game - Trivia 2.0</title>
+    <meta charset="utf-8">
+    <script type="text/javascript">
+        // <!-- TabDisplayFormat=3 -->
+        // $$XPREditor$$: https://qa.pubsuite.com/customvts/VX/Games/js/GameTriviaEditor20.js
+        var g_oPageOptions = {
+            iLocaleID: 1033,
+            oBoothKey: 4909,
+            cTabList: "docs|Chat|Leaderboard|",
+            aPageURLS: [],
+            cUserType: "2",
+            cUserKey: "619140",
+            cChatUserKey: "-6388",
+            iBoothVisitKey: 0,
+            iIsBoothStaffer: 1,
+            iVideoCollectionCount: 0,
+            cBoothMessage: "Game - Trivia 2.0",
+            iExhibitorKey: 4840,
+            cBoothVisitCount: 0,
+            iRecipientKey: 0,
+            iIsPrivateBoothL: 0,
+            iInstanceID: 1,
+            cVTSServer: "https://qa.pubsuite.com",
+            cImageDir: "/cfr/images",
+            cEMailAddress: "tlee@inxpo.com",
+            iPlayerTechnology: 0,
+            cContentServerAddress: "qa.pubsuite.com",
+            cFlashMediaVirtualDirectory: "/QA/MediaCollection"
+        }
+
+        function window_onload() {
+            EX_SpaceDisplayInit();
+        }
+    </script>
+
+    <link type="text/css" href="https://qa.pubsuite.com/customvts/VX/Shared/css/ExpressMaster.css" rel="stylesheet">
+
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Trivia.css">
+    <!--<link rel="stylesheet" href="/cfr/stylesheets/master.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="/cfr/stylesheets/Rating.css" />
+    <link type="text/css" href="Server.nxp?LASCmd=AI:4;F:APIUTILS!200&ShowKey=4573" rel="stylesheet">
+    <script type="text/javascript" src="/cfr/scripts/XBrowser.js"></script>
+    <script type="text/javascript" src="/cfr/scripts/VTS/ShowFunctions.js"></script>
+    <script type="text/javascript" src="/cfr/scripts/VTS/RatingScript.js"></script>
+    <script type="text/javascript" src="/cfr/scripts/VTS/ShareWidget.js"></script>-->
+    <!--[if IE]><script language="javascript" type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/2DStyle/2100/js/flot/excanvas.min.js"></script><![endif]-->
+    <!--<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Shared/js/language/Language1033.js"></script>
+    <script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Shared/js/ExpressGlobalFunctions.js"></script>
+    <script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Shared/js/ExpressLayoutCreateObjects.js"></script>-->
+
+</head>
+
+<body id="BodyTag" onLoad="window_onload()">
+    <div class="container content">
+        <div class="row text-center py-3">
+            <div class="col">
+                <h4 id="qNumber">1</h4> of 10
+            </div>
+            <div class="col">
+                <h4 id="score">Score: 0</h4>
+            </div>
+            <div class="col">
+                <h4 id="seconds" value></h4>
+            </div>
+        </div>
+        <div class="row text-center py-3">
+            <div class="col">
+                <h6 id="response">Good Luck!</h6>
+            </div>
+        </div>
+        <div id="question"></div>
+    </div>
+    <script src="../js/TriviaDisplay.js"></script>
+</body>
+
+</html>

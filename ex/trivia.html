@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+
+<!--
+  SPACE = GAME TRIVIA - GENESIS
+  VERSION = 2.0 
+  LAYOUT ID = VX_Game_Trivia_V2000 
+  PageID = GameTrivia20
+-->
+
+<title>g1a. Game - Trivia 2.0</title>		
+<meta charset="utf-8">
+    <script type="text/javascript" src="/cfr/scripts/DisablePage.js"></script>
+<script type="text/javascript" src="/cfr/scripts/InxpoAJAX.js"></script>
+<script type="text/javascript">
+  <!-- TabDisplayFormat=3 -->
+  // $$XPREditor$$: https://qa.pubsuite.com/customvts/VX/Games/js/GameTriviaEditor20.js
+
+  var g_oPageOptions = {}
+  var g_oPageOptions = {"GameDefKey":71,"GameKey":1067,"oGameDate":[{"Date":"6/23/2012","TimeH":"12","TimeM":"00","TimeAMPM":"0"},{"Date":"9/21/2020","TimeH":"12","TimeM":"00","TimeAMPM":"0"}],"iBackgroundImage":0,"cBackgroundImageURL":"https://qa.pubsuite.com/customvts/VX/Games/assets/GamesTrivia.jpg","iWelcomeBackgroundImage":0,"cGameWelcomeImageURL":"https://qa.pubsuite.com/customvts/VX/Games/assets/GamesBGTriviaWelcome.jpg","cGameBackgroundImageURL":"https://qa.pubsuite.com/customvts/VX/Games/assets/GamesBGTriviaInGame.jpg","cWelcomeVideoImageURL":"","BGColor":"#FFFFFF","ObjectColor":"#B7E801","DisplayFontColor":"#FFFFFF","AnswerFontColor":"#06223F","aTabOptions":[{"cText":"docs","iKey":"85484,","iActive":"1","iIndex":"0","iType":"6","cLangStr":"","iFeatureKey":137290},{"iType":"1","iKey":"507174","cText":"Chat","iIndex":"2","iFeatureKey":113848,"iActive":"1","cLangStr":""},{"iType":"12","iKey":"1067","cText":"Leaderboard","iIndex":"10","iFeatureKey":113847,"iActive":"1","cLangStr":""}],"aGameOptions":[{"iOrder":0,"cQuestion":"Who is the first President of the United States of America? Who is the first President of the United States of America? Who is the first President of the United States of America? Who is the first Pre","cAnswer1":"George Washington George Washington","cAnswer2":"Thomas Jefferson Thomas Jefferson more text here t","cAnswer3":"James Monroe James Monroe","cAnswer4":"John Adams John Adams John Adams","Correct":"#71#104#114#117#106#104 #87#100#118#107#108#113#106#119#114#113 #71#104#114#117#106#104 #87#100#118#107#108#113#106#119#114#113"},{"iOrder":1,"cQuestion":"Which of the following countries is landlocked? Which of the following countries is landlocked? Which of the following countries is landlocked? Which of the following countries is landlocked? Which of","cAnswer1":"Brazil Brazil Brazil","cAnswer2":"Cuba Cuba Cuba Cuba Cuba CubaCuba","cAnswer3":"Bolivia","cAnswer4":"Colombia","Correct":"#66#114#111#108#121#108#100"},{"iOrder":2,"cQuestion":"What is the number of squares on a chess board?","cAnswer1":"72","cAnswer2":"64","cAnswer3":"32","cAnswer4":"48","Correct":"64"},{"iOrder":3,"cQuestion":"Which country is ruled by a single dynasty for more than two thousand years?","cAnswer1":"England","cAnswer2":"Persia","cAnswer3":"Japan","cAnswer4":"Egypt","Correct":"#74#100#115#100#113"},{"iOrder":4,"cQuestion":"Which of the following is not a gas?","cAnswer1":"Nitrogen","cAnswer2":"Oxygen","cAnswer3":"Helium","cAnswer4":"Mercury","Correct":"#77#104#117#102#120#117#124"},{"iOrder":5,"cQuestion":"Which TV news channel began telecast in 1980?","cAnswer1":"Star News","cAnswer2":"CNN","cAnswer3":"BBC","cAnswer4":"Fox News","Correct":"#67#78#78"},{"iOrder":6,"cQuestion":"Who is considered the father of geometry?","cAnswer1":"Pythagoras","cAnswer2":"Socrates","cAnswer3":"Alexander","cAnswer4":"Euclid","Correct":"#69#120#102#111#108#103"},{"iOrder":7,"cQuestion":"Which country has 11 official languages?","cAnswer1":"India","cAnswer2":"USA","cAnswer3":"Canada","cAnswer4":"South Africa","Correct":"#83#114#120#119#107 #65#105#117#108#102#100"},{"iOrder":8,"cQuestion":"What are vertebrates that live both under water and on land called?","cAnswer1":"Amphibians","cAnswer2":"Cats","cAnswer3":"Grasshoppers","cAnswer4":"Frogs","Correct":"#65#112#115#107#108#101#108#100#113#118"},{"iOrder":9,"cQuestion":"Who will win super bowl?","cAnswer1":"Da Bears","cAnswer2":"Chicago Bears","cAnswer3":"Green Bay Pizzackers","cAnswer4":"Bearz","Correct":"#68#100 #66#104#100#117#118"}],"bShowSocialSuite":false,"bContentInterests":false,"iPreRoll":"","bEnableFacebook":true,"bGameReplay":true,"cFirstColor":"#FF4093","cSecondColor":"#2EFF2E","cThirdColor":"#EEFFA8","iShellBackgroundImage":0,"cShellBackgroundImageURL":""}
+  var g_LocaleID = 1033;
+  var g_BoothKey = 49094;
+  var g_aTabList = "docs|Chat|Leaderboard|";
+  var g_aPageURLS = new Array("Server.nxp?LASCmd=AI:1;F:SF!30120&SectionTabFeatureKey=137290&TabSection=1&BoothKey=49094&ExhibitorKey=4840",
+"Server.nxp?LASCmd=AI:1;F:SF!30120&SectionTabFeatureKey=113848&TabSection=1&BoothKey=49094&ExhibitorKey=4840",
+"Server.nxp?LASCmd=AI:1;F:SF!30120&SectionTabFeatureKey=113847&TabSection=1&BoothKey=49094&ExhibitorKey=4840",
+"Server.nxp?LASCmd=AI:1;O:BlankBooth.htm");
+  var g_UserType = "2";
+  var g_UserKey = "619140";
+  var g_ChatUserKey = "-6388";
+  var g_BoothVisitKey = 0;
+  var g_IsBoothStaffer = 1;
+  var g_iVideoCollectionCount = 0;
+  var g_BoothMessage = "Game - Trivia 2.0";	
+  var g_ExhibitorKey = 4840;
+  var g_BoothVisitCount = 0;
+  var g_RecipientKey = 0;
+  var g_IsPrivateBooth = 0;
+  var g_InstanceID = 1;
+  var g_VTSServer = "https://qa.pubsuite.com";
+  var g_ImageDir = "/cfr/images";
+  var g_EMailAddress = "tlee@inxpo.com";
+  var g_PlayerTechnology = 0;
+  var g_ContentServerAddress = "qa.pubsuite.com";
+  var g_FlashMediaVirtualDirectory = "/QA/MediaCollection";			
+  
+  function window_onload(){
+    EX_SpaceDisplayInit()
+  }
+
+</script>
+<link rel="stylesheet" href="/cfr/stylesheets/master.css" type="text/css" />
+<link rel="stylesheet" type="text/css" href="/cfr/stylesheets/Rating.css" />
+<link type="text/css" href="https://qa.pubsuite.com/customvts/VX/Shared/css/ExpressMaster.css" rel="stylesheet">
+<link href="/cfr/stylesheets/ShareWidget.css" rel="stylesheet" type="text/css">
+<link type="text/css" href="https://qa.pubsuite.com/customvts/VX/Games/css/GameTrivia.css" rel="stylesheet">
+<link type="text/css" href="Server.nxp?LASCmd=AI:4;F:APIUTILS!200&ShowKey=4573" rel="stylesheet">
+
+<script type="text/javascript" src="/cfr/scripts/XBrowser.js"></script>
+<script type="text/javascript" src="/cfr/scripts/VTS/ShowFunctions.js"></script>
+<script type="text/javascript" src="/cfr/scripts/VTS/RatingScript.js"></script>
+<script type="text/javascript" src="/cfr/scripts/VTS/ShareWidget.js"></script>
+<!--[if IE]><script language="javascript" type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/2DStyle/2100/js/flot/excanvas.min.js"></script><![endif]-->
+<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Shared/js/language/Language1033.js"></script>
+<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Shared/js/ExpressGlobalFunctions.js"></script>
+<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Shared/js/ExpressLayoutCreateObjects.js"></script>
+<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Games/js/GameTriviaDisplay20.js"></script>
+<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Games/js/GameFacebookAwards.js"></script>
+</head>
+<body id="BodyTag" onLoad="window_onload()">
+<script type="text/javascript" src="https://qa.pubsuite.com/customvts/VX/Games/js/MobileTrivia20.js"></script>
+</body>
+</html>
